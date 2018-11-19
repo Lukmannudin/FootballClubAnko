@@ -1,7 +1,7 @@
 package com.lukmannudin.assosiate.footballclub
 
-interface MainView {
+interface TeamDetailView {
     fun showLoading()
     fun hideLoading()
-    fun showTeamList(data: List<Team>)
+    fun showDetailTeam(data: List<Team>)
 }
