@@ -10,8 +10,8 @@ import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 
 class TeamDetailPresenter(  private val view: TeamDetailView,
-                            private val apiRepository: ApiRepository,
-                            private val gson: Gson) {
+                             private val apiRepository: ApiRepository,
+                             private val gson: Gson) {
     fun getTeamDetail(teamId: String){
         view.showLoading()
         doAsync {

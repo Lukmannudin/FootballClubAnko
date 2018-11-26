@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="team_badge" type="id"></item>
-    <item name="team_name" type="id"></item>
+    <item name="team_badge" type="id"/>
+    <item name="team_name" type="id"/>
+    <item name="spinner" type="id"/>
+
 </resources>

@@ -55,7 +55,9 @@ class TeamsFragment : Fragment(), AnkoComponent<Context>, TeamsView {
             leftPadding = dip(16)
             rightPadding = dip(16)
 
-            spinner = spinner()
+            spinner = spinner{
+                id = R.id.spinner
+            }
             swipeRefresh = swipeRefreshLayout {
                 setColorSchemeResources(colorAccent,
                     android.R.color.holo_green_light,
